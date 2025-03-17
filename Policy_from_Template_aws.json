@@ -1,0 +1,17 @@
+{
+   "policy" : {
+      "applicationLanguage" : "utf-8",
+      "caseInsensitive" : true,
+      "description" : "Policy without any customizations from template",
+      "enablePassiveMode" : false,
+      "enforcementMode" : "blocking",
+      "fullPath" : "/Common/Policy_from_Template_aws",
+      "name" : "Policy_from_Template_aws",
+      "protocolIndependent" : false,
+      "template" : {
+         "name" : "IIS_Template"
+      },
+      "type" : "security",
+      "active": true
+   }
+}
